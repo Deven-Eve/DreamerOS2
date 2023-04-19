@@ -228,56 +228,6 @@ echo -ne "
 -------------------------------------------------------------------------
 "
 sudo pacman -S xorg-server xorg-xinit libxinerama libxft
-sudo rm -R /usr/share/icewm/themes/NanoBlue /usr/share/icewm/themes/CrystalBlue /usr/share/icewm/themes/icedesert /usr/share/icewm/themes/metal2 /usr/share/icewm/themes/motif /usr/share/icewm/themes/win95 /usr/share/icewm/themes/default /usr/share/icewm/themes/Infadel2
-sudo mv Helix black
-sudo cat << EOF > /usr/share/icewm/theme/black/default.theme
-ThemeDescription="redice"
-ThemeAuthor="RudeSka... Sort of.  TigerT did the art"
-Look=gtk
-
-TitleButtonsLeft="s"
-TitleButtonsRight="xmi"
-TitleBarCentered=1
-TitleBarHeight=22
-BorderSizeX=2
-BorderSizeY=2
-CornerSizeX=28
-CornerSizeY=28
-DlgBorderSizeX=2
-DlgBorderSizeY=2
-
-ColorNormalBorder="#000000"
-ColorActiveBorder="#000000"
-
-ColorNormalButton="#000000"
-ColorNormalButtonText="#FFFFFF"
-ColorActiveButton="#000000"
-ColorActiveButtonText="#FFFFFF"
-ColorNormalTitleBarText="#FFFFFF"
-ColorActiveTitleBarText="#FFFFFF"
-
-ColorNormalMenu="#000000"
-ColorActiveMenuItem="#000000"
-ColorNormalMenuItemText="#FFFFFF"
-ColorActiveMenuItemText="#FFFFFF"
-ColorDisabledMenuItemText="#FFFFFF"
-
-ColorMoveSizeStatus="#000000"
-ColorMoveSizeStatusText="#FFFFFF"
-
-ActiveButtonFontName="-b&h-lucida-medium-r-*-*-12-*-*-*-*-*-*-*"
-NormalButtonFontName="-b&h-lucida-medium-r-*-*-12-*-*-*-*-*-*-*"
-ClockFontName="-b&h-lucida-medium-r-*-*-12-*-*-*-*-*-*-*"
-QuickSwitchFontName="-b&h-lucida-medium-r-*-*-11-*-*-*-*-*-*-*"
-ListBoxFontName="-b&h-lucida-medium-r-*-*-12-*-*-*-*-*-*-*"
-MenuFontName="-b&h-lucida-medium-r-*-*-12-*-*-*-*-*-*-*"
-StatusFontName="-b&h-lucida-medium-r-*-*-12-*-*-*-*-*-*-*"
-TitleFontName="-b&h-lucida-medium-r-*-*-12-*-*-*-*-*-*-*"
-ToolTipFontName="-b&h-lucida-medium-r-*-*-12-*-*-*-*-*-*-*"
-
-ShowMenuButtonIcon=0
-EOF
-
 
 
 
