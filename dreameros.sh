@@ -227,7 +227,7 @@ echo -ne "
                     Installing Base System  
 -------------------------------------------------------------------------
 "
-sudo pacman -S icewm xorg-server xorg-xinit libxinerama libxft focuswriter udiskie light plymouth
+sudo pacman -S xorg-server xorg-xinit libxinerama libxft
 sudo rm -R /usr/share/icewm/themes/NanoBlue /usr/share/icewm/themes/CrystalBlue /usr/share/icewm/themes/icedesert /usr/share/icewm/themes/metal2 /usr/share/icewm/themes/motif /usr/share/icewm/themes/win95 /usr/share/icewm/themes/default /usr/share/icewm/themes/Infadel2
 sudo mv Helix black
 sudo cat << EOF > /usr/share/icewm/theme/black/default.theme
